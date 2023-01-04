@@ -1,0 +1,86 @@
+/* main color -> #f3cd14  #ffe568*/
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'News Cycle', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 1.5vw;
+    
+}
+header>a{
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    display: inline-block;
+}
+header>a>span{
+    font-family: 'Anton', sans-serif;
+    color: #f3cd14;
+    font-size: 2rem;
+}
+.navigation{
+    margin: 0;
+    padding: 0;
+}
+.navigation , .navigation>li{
+    display: inline-block;
+}
+.navigation>li{
+    margin-left: 15vw;
+}
+.navigation>li>a{
+    text-decoration: none;
+    color:white;
+    font-size: 1.3rem;
+}
+.navigation>li>a:hover{
+    color: #f3cd14;
+}
+header>button{
+    width: 4vw;
+    height: 2vw;
+    background: #f3cd14;
+    border: none;
+    color:white;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+header>button:nth-child(3){
+    margin-left: 20vw;
+    border-radius: 1vw 0 0 1vw;
+}
+header>button:nth-child(4){
+    border-radius: 0 1vw 1vw 0;
+    position: relative;
+    right: 0.2vw;
+}
+header>button:hover{
+    background-color: #ffe568;
+    color: black;
+}
+.home::after{
+    content: ' ';
+    position:absolute;
+    padding: 0;
+    opacity: 0.4;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
