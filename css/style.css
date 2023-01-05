@@ -15,14 +15,14 @@ header{
     padding: 1.5vw;
     
 }
-header>a{
+header>a , footer>a{
     font-family: 'Anton', sans-serif;
     text-decoration: none;
     color: white;
     font-size: 2rem;
     display: inline-block;
 }
-header>a>span{
+header>a>span, footer>a>span{
     font-family: 'Anton', sans-serif;
     color: #f3cd14;
     font-size: 2rem;
@@ -104,7 +104,7 @@ header>button:hover{
     width: 30vw;
     margin-right: 17vw;
     color: white;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 .text{
     display: inline-block;
@@ -210,4 +210,27 @@ header>button:hover{
     font-size: 1.2rem;
     color: #f3cd14;
     font-weight: 700;
+}
+footer{
+    text-align: center;
+    background-color: #383838;
+}
+footer>p{
+    width: 50vw;
+    margin: 0 auto;
+    color: white;
+}
+footer>p:nth-child(3){
+    font-size: 1.5rem;
+}
+footer>ul{
+   padding: 0;
+}
+footer>ul>li{
+    display: inline-block;
+    margin:0 3vw;
+}
+footer>ul>li>a{
+    color: white;
+    font-size: 1.5rem;
 }
