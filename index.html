@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <a href="#" class="logo">EGYPT<span>GAMING.</span></a>
+        <a href="./index.html" class="logo">EGYPT<span>GAMING.</span></a>
         <ul class="navigation">
             <li><a href="#">Home</a></li>
             <li><a href="#">Contact Us</a></li>
@@ -18,15 +18,15 @@
         <button>Login</button>
         <button>Register</button>
     </header>
-    <div class="background_pic">
-
-    </div>
+    <div class="background_pic"></div>
     <section class="home">
     <div class="text">
         <h1>Best games in <span>2022</span></h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto libero quaerat ullam cumque, vitae, officia omnis inventore fugiat soluta officiis distinctio quae explicabo totam a ducimus dolorem ut dicta quod?</p>
     </div>
     <div class="slideshow-container">
+        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
         <div class="Containers">
             <div class="MessageInfo">1 / 3</div>
             <img src="./images/image_slider_1.jpg">
@@ -42,11 +42,40 @@
             <img src="./images/image_slider_3.jpg">
             <div class="Info">Star wars</div>
         </div>
-        <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+        
     </div>
     </section>
-    
+    <section class="products">
+        <h1>Featured products</h1>
+        <a href="">
+            <div class="card">
+            <img src="./images/product1.jpg" alt="">
+            <p class="product_name">ONIKUMA K18 Gaming Headset</p>
+            <p class="description">Super Real Gaming Experience: ONIKUMA K5 gaming headset maximizes the clarity of sound with 7.1 Surround technology. High-grade 60mm driver with neodymium magnets delivers clean clear bass. Just take your gaming experience to a higher level!</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./images/product2.jpg" alt="">
+                <p class="product_name">ADATA XPG Series</p>
+                <p class="description">ADATA has beaten the LG Gram series at its own game by offering a superlight subnotebook without any of the performance deficits that usually entail. However, there are a few setbacks related to the chassis that users should be aware of.</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./images/product3.jpg" alt="">
+                <p class="product_name"> XBOX ONE X</p>
+                <p class="description">Xbox One X is the world's most powerful console. With 40% more power than any other Console, experience immersive true 4K gaming. Blockbuster titles look great, run smoothly, and load quickly even on a 1080p screen.</p>
+            </div>
+        </a>
+        <a href="">
+            <div class="card">
+                <img src="./images/product4.jpg" alt="">
+                <p class="product_name">DualSense Wireless Controller ps5</p>
+                <p class="description"> Feel physically responsive feedback to your in-game actions with dual actuators which replace traditional rumble motors. In your hands, these dynamic vibrations can simulate the feeling of everything from environments to the recoil of different weapons.</p>
+            </div>
+        </a>
+    </section>
     <script src="./js/slider.js"></script>
 </body>
 </html>
