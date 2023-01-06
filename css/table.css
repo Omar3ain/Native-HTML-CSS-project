@@ -21,3 +21,8 @@ tr:not(:first-child):hover{
     background-color: #f3cd14;
     transition: 0.5s;
 }
+@media only screen and (max-width: 600px){
+    .users{
+        margin: 11vw 10vw;
+    }
+}

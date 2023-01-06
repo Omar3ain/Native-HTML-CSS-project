@@ -19,3 +19,11 @@ header{
 .description{
     font-size: 1.5rem;
 }
+@media only screen and (max-width:600px) {
+    .products>.card>img {
+        width: 69vw;
+    }
+    .products>.card {
+        width: 81vw;
+    }
+}

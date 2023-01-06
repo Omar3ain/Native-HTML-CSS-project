@@ -256,3 +256,119 @@ footer>ul>li>a:hover{
     font-size: 1.5rem;
     transition: 0.5s;
 }
+@media only screen and (max-width: 1200px) {
+    .navigation>li {
+        margin-left: 9vw;
+    }
+}
+@media only screen and (max-width: 992px) {
+    header>.navigation{
+        
+        display: none;
+    }
+    header>button:nth-child(3) {
+        margin-left: 50vw;
+        border-radius: 0.5vw 0 0 0.5vw;
+    }
+    header>button{
+
+            width: 11vw;
+            height: 5vw;
+    }
+    .background_pic,.background_pic::after{
+        height: 148vw;
+    }
+    .text {
+
+        bottom: 0;
+    }
+    .text>h1 {
+        font-size: 3rem;
+        margin-top: 0;
+    }
+    .text>p {
+        width: 77vw;
+        font-size: 1.5rem;
+    }
+    .Containers>img {
+        width: 78vw;
+        height: 110vw;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        margin: 10vw;
+    }
+    .products>h1 {
+        font-size: 2.5rem;
+    }
+    .products>h1::first-letter {
+        font-size: 3rem;
+    }
+    .products>a>.card {
+        width: 81vw;
+        height: 75vh;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+        transition: 0.5s;
+    }
+    .products>a>.card>img {
+        width: 68vw;
+        height: auto;
+    }
+    .products>a>.card>p {
+        font-size: 1.5rem;
+    }
+    
+} 
+@media only screen and (max-width: 600px) {
+    
+    header>.navigation{
+        
+        display: none;
+    }
+    header>button:nth-child(3) {
+        margin-left: 10vw;
+        border-radius: 0.5vw 0 0 0.5vw;
+    }
+    header>button{
+
+            width: 17vw;
+            height: 8vw;
+    }
+    .background_pic,.background_pic::after{
+        height: 148vw;
+    }
+    .text>h1{
+        font-size: 2rem;
+        margin-top: 20vh ;
+    }
+    .text>p {
+        width: 77vw;
+        font-size: 1rem;
+    }
+    .Containers>img {
+        width: 78vw;
+        height: 110vw;
+    }
+    .slideshow-container {
+        max-width: 100%;
+        margin: 10vw;
+    }
+    .products>h1 {
+        font-size: 2.5rem;
+    }
+    .products>h1::first-letter {
+        font-size: 3rem;
+    }
+    .products>a>.card {
+        width: 81vw;
+        height: 75vh;
+        margin-left: 10vw;
+        margin-bottom: 5vh;
+        transition: 0.5s;
+    }
+    .products>a>.card>img {
+        width: 68vw;
+        height: auto;
+    }
+}
