@@ -45,6 +45,9 @@ header>a>span, footer>a>span{
 .navigation>li>a:hover{
     color: #f3cd14;
 }
+.menuToggle{
+    display: none;
+}
 header>button{
     width: 4vw;
     height: 2vw;
@@ -193,6 +196,9 @@ header>button>a:hover{
     font-weight: 700;
     color: #f3cd14;
 }
+.products>a{
+    color: white;
+}
 .products>a>.card{
     display: inline-block;
     width: 20vw;
@@ -256,9 +262,22 @@ footer>ul>li>a:hover{
     font-size: 1.5rem;
     transition: 0.5s;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1600px) {
     .navigation>li {
         margin-left: 9vw;
+    }
+    .text {
+        bottom: 9vw;
+    }
+    header>button {
+        width: 5vw;
+        height: 2.5vw;
+    }
+    .products>a>.card>p {
+        font-size: 0.6rem;
+    }
+    .products>a>.card>p:nth-child(2) {
+        margin: 0;
     }
 }
 @media only screen and (max-width: 992px) {
@@ -267,7 +286,7 @@ footer>ul>li>a:hover{
         display: none;
     }
     header>button:nth-child(3) {
-        margin-left: 50vw;
+        margin-left: 17vw;
         border-radius: 0.5vw 0 0 0.5vw;
     }
     header>button{
@@ -275,6 +294,33 @@ footer>ul>li>a:hover{
             width: 11vw;
             height: 5vw;
     }
+    .menuToggle{
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        font-size: 6vw;
+        margin-left: 22vw;
+    }
+    .navigation.active{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #383838;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        text-align: left;
+        margin-top: 13vw;
+    }
+    .navigation.active li {
+        display: block;
+        text-align: center;
+        margin: 3vw 0;
+    }
+    .navigation.active li a{
+        font-size: 2rem;
+    } 
     .background_pic,.background_pic::after{
         height: 148vw;
     }
@@ -316,7 +362,7 @@ footer>ul>li>a:hover{
         height: auto;
     }
     .products>a>.card>p {
-        font-size: 1.5rem;
+        font-size: 2.5vw;
     }
     
 } 
@@ -331,16 +377,42 @@ footer>ul>li>a:hover{
         border-radius: 0.5vw 0 0 0.5vw;
     }
     header>button{
-
-            width: 17vw;
-            height: 8vw;
+        width: 15vw;
+        height: 7vw;
     }
+    .menuToggle{
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        font-size: 6vw;
+        margin-left: 7vw;
+    }
+    .navigation.active{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #383838;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        text-align: left;
+        margin-top: 13vw;
+    }
+    .navigation.active li {
+        display: block;
+        text-align: center;
+        margin: 3vw 0;
+    }
+    .navigation.active li a{
+        font-size: 2rem;
+    } 
     .background_pic,.background_pic::after{
         height: 148vw;
     }
     .text>h1{
         font-size: 2rem;
-        margin-top: 20vh ;
+        margin-top: 0 ;
     }
     .text>p {
         width: 77vw;
@@ -372,3 +444,43 @@ footer>ul>li>a:hover{
         height: auto;
     }
 }
+@media only screen and (max-width: 400px) {
+    header>button:nth-child(3) {
+        margin-left: 3vw;
+        border-radius: 0.5vw 0 0 0.5vw;
+    }
+    header>button{
+        width: 15vw;
+        height: 8vw;
+    }
+    .menuToggle{
+        display: inline-block;
+        color: white;
+        cursor: pointer;
+        font-size: 6vw;
+        margin-left: 7vw;
+    }
+    .navigation.active{
+        width: 100%;
+        height: 100%;
+        display: block;
+        background-color: #383838;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 2;
+        text-align: left;
+        margin-top: 13vw;
+    }
+    .navigation.active li {
+        display: block;
+        text-align: center;
+        margin: 3vw 0;
+    }
+    .navigation.active li a{
+        font-size: 2rem;
+    } 
+    header>button>a {
+        font-size: 1rem;
+    }
+   }
