@@ -498,3 +498,20 @@ footer>ul>li>a:hover{
         font-size: 1rem;
     }
 }
+@media only screen and (min-width: 1654px) {
+    .products>.card {
+        width: 43vw !important;
+        height: 27vw;
+    }
+    .products>.card>p:nth-child(2) {
+        display: inline-block;
+    }
+    .products>.card>img {
+        width: 17vw !important;
+        float: left;
+        margin: 0 0 5vw 0;
+        position: relative;
+        right: 6vw;
+    }
+   
+}
