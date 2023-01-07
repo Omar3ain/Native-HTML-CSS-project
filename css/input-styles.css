@@ -87,4 +87,7 @@ background: #f3cd14;
     form{
         width: 78vw;
     }
+    .radio-item {
+        margin:0;
+     }
 }

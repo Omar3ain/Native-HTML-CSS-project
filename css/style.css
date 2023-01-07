@@ -49,10 +49,11 @@ header>a>span, footer>a>span{
     display: none;
 }
 header>button{
-    width: 4vw;
-    height: 2vw;
+    
     background: #f3cd14;
     border: none;
+    width: fit-content;
+    height: fit-content;
 }
 header>button>a{
     width: 100%;
@@ -65,6 +66,7 @@ header>button>a{
     display: inline-block;
     cursor: pointer;
     transition: 0.5s;
+
 }
 header>button:nth-child(3){
     margin-left: 20vw;
@@ -73,7 +75,7 @@ header>button:nth-child(3){
 header>button:nth-child(4){
     border-radius: 0 1vw 1vw 0;
     position: relative;
-    right: 0.2vw;
+    right: 0.3vw;
 }
 header>button:hover{
     background-color: #ffe568;
@@ -273,6 +275,9 @@ footer>ul>li>a:hover{
         width: 5vw;
         height: 2.5vw;
     }
+    header>button:nth-child(4) {
+        right: 0.3vw;
+    }
     .products>a>.card>p {
         font-size: 0.6rem;
     }
@@ -293,6 +298,9 @@ footer>ul>li>a:hover{
 
             width: 11vw;
             height: 5vw;
+    }
+    header > button:nth-child(4) {
+        right: 0.8vw;
     }
     .menuToggle{
         display: inline-block;
@@ -380,6 +388,9 @@ footer>ul>li>a:hover{
         width: 15vw;
         height: 7vw;
     }
+    header > button:nth-child(4) {
+        right: 1.2vw;
+    }
     .menuToggle{
         display: inline-block;
         color: white;
@@ -450,8 +461,11 @@ footer>ul>li>a:hover{
         border-radius: 0.5vw 0 0 0.5vw;
     }
     header>button{
-        width: 15vw;
+        width: 15.3vw;
         height: 8vw;
+    }
+    header > button:nth-child(4) {
+        right: 1vw;
     }
     .menuToggle{
         display: inline-block;
@@ -483,4 +497,4 @@ footer>ul>li>a:hover{
     header>button>a {
         font-size: 1rem;
     }
-   }
+}
