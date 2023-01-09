@@ -375,7 +375,6 @@ footer>ul>li>a:hover{
     
 } 
 @media only screen and (max-width: 600px) {
-    
     header>.navigation{
         
         display: none;
@@ -445,7 +444,7 @@ footer>ul>li>a:hover{
     }
     .products>a>.card {
         width: 81vw;
-        height: 75vh;
+        height: 53vh;
         margin-left: 10vw;
         margin-bottom: 5vh;
         transition: 0.5s;
@@ -454,6 +453,9 @@ footer>ul>li>a:hover{
         width: 68vw;
         height: auto;
     }
+    .products>a>.card>p {
+        font-size: 3vw;
+    }
 }
 @media only screen and (max-width: 400px) {
     header>button:nth-child(3) {
@@ -461,7 +463,7 @@ footer>ul>li>a:hover{
         border-radius: 0.5vw 0 0 0.5vw;
     }
     header>button{
-        width: 15.3vw;
+        width: 15.6vw;
         height: 8vw;
     }
     header > button:nth-child(4) {
